@@ -261,3 +261,16 @@ mark {
 #right-sidebar pre.CodeMirror-line {
   background: transparent;
 }
+/* === 外部链接加图标 ====*/ 
+    a.external-link {border-bottom: 0px;}
+    a.external-link:after {
+        display:inline-block;
+        content:"";
+        width: 21px;
+        height:16px;
+        background: 
+          transparent
+            50% 200%/54%
+            url('https://svgshare.com/i/SWJ.svg') no-repeat; 
+      	filter: invert(45%) sepia(100%) saturate(100%) hue-rotate(0deg) brightness(110%) contrast(249%);
+    }

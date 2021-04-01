@@ -1,24 +1,24 @@
 :root {
-  --background: #22222F;
-  --light-background: #2C2C41;
-  --lighter-background: #252535;
-  --dark-background: #252535;
-  --darker-background: #252535;
-  --foreground: #BFAADA;
-  --current-line: #44475a;
-  --comment: #B0A0C6;
+  --background: #22222F; /*大背景*/
+  --light-background: #2C2C41; /*代码框，右边栏linked ref，引用*/
+  --lighter-background: #252535; /*不知道*/
+  --dark-background: #252535; /*右边栏底色，linked ref，文件名*/
+  --darker-background: #252535; /*不知道*/
+  --foreground: #BFAADA; /*普通文字*/
+  --current-line: #44475a; /*折叠圆点*/
+  --comment: #B0A0C6; /*todo框，代码行，代码备注*/
   --white: var(--foreground);
-  --white-hover: #BFAADA;
-  --red: #22222F;
-  --orange: #BFAADA;
-  --yellow: #C5C767;
-  --green: #BFAADA;
-  --purple: #bd93f9;
-  --purple-hover: #bd93f9;
-  --cyan: #BFAADA;
-  --cyan-hover: #BFAADA;
-  --pink: #BE8CFF;
-  --pink-hover: #BFAADA;
+  --white-hover: #BFAADA; /*图标色*/
+  --red: #22222F; /*不知道*/
+  --orange: #BFAADA; /*代码颜色*/
+  --yellow: #C5C767; /*高亮，引述，搜索高亮*/
+  --green: #BFAADA; /*代码*/
+  --purple: #bd93f9; /*代码色号*/
+  --purple-hover: #bd93f9;  /*不知道*/
+  --cyan: #BFAADA;  /*不知道*/
+  --cyan-hover: #BFAADA;  /*不知道*/
+  --pink: #BE8CFF;  /*双链，标签*/
+  --pink-hover: #BFAADA; /*鼠标悬浮*/
 
   --ls-tag-text-opacity: 1;
   --ls-tag-text-hover-opacity: 0.8;
@@ -35,7 +35,7 @@
 
 .dark-theme,
 html[data-theme="dark"] {
-  --ls-main-content-max-width: 850px;
+  --ls-main-content-max-width: 850px; /*页面宽度*/
   --ls-primary-background-color: var(--background);
   --ls-secondary-background-color: var(--dark-background);
   --ls-tertiary-background-color: var(--light-background);
@@ -49,13 +49,13 @@ html[data-theme="dark"] {
   --ls-secondary-text-color: var(--white-hover);
 
   --ls-search-background-color: var(--background);
-  --ls-border-color: #44475a;
-  --ls-menu-hover-color: #2C2C41;
+  --ls-border-color: #44475a; /*分割线颜色，竖线*/
+  --ls-menu-hover-color: #2C2C41; /*菜单选中*/
   --ls-table-tr-even-background-color: var(--light-background);
 
   --ls-head-text-color: var(--foreground);
   --ls-title-text-color: var(--foreground);
-  --ls-link-text-color: #CCA4FF;
+  --ls-link-text-color: #CCA4FF; /*内链*/
   --ls-link-text-hover-color: var(--pink-hover);
   --ls-link-ref-text-color: var(--pink);
   --ls-link-ref-text-hover-color: var(--pink-hover);
@@ -74,7 +74,7 @@ html[data-theme="dark"] {
   --ls-page-blockquote-bg-color: var(--light-background);
   --ls-page-blockquote-border-color: var(--yellow);
 
-  --ls-page-inline-code-color: #C5C767;
+  --ls-page-inline-code-color: #C5C767; /*行内代码*/
   --ls-page-inline-code-bg-color: var(--background);
 
   --ls-scrollbar-background-color: var(--background);
@@ -96,7 +96,7 @@ body {
   letter-spacing: var(--ls-font-letter-spacing);
   line-height: var(--ls-font-line-height);
   font-size: var(--ls-page-text-size);
-  background-color: #22222F;
+  background-color: #22222F; /*不知道*/
 }
 
 i {
@@ -125,7 +125,7 @@ mark {
 }
 
 .external-link {
-  color: #C5C767;
+  color: #C5C767; /*外链颜色*/
   text-decoration: none;
   border-bottom: none;
 }

@@ -9,6 +9,6 @@
 预览图
 ![](https://github.com/dale502/Le-theme-logseq/blob/main/purple.jpg?raw=true)
 
-如果想自己改色，可以查看 `custom-备注.css` ，我有把颜色参数备注出来
+如果想自己改色，`css` 文件中我有把颜色参数备注出来
 
 基于 https://github.com/dracula/logseq 的 CSS 参数修改，大家也可以去使用他的

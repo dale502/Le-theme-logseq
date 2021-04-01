@@ -1,24 +1,24 @@
 :root {
-  --background: #252528;
-  --light-background: #282A35;
-  --lighter-background: #424450;
-  --dark-background: #202023;
-  --darker-background: #191a21;
-  --foreground: #BEBEBF;
-  --current-line: #44475a;
-  --comment: #6272a4;
+  --background: #252528; /*大背景*/
+  --light-background: #282A35;  /*代码框，右边栏linked ref，引用*/
+  --lighter-background: #424450; /*不知道*/
+  --dark-background: #202023; /*右边栏底色，linked ref，文件名*/
+  --darker-background: #191a21; /*不知道*/
+  --foreground: #BEBEBF; /*普通文字*/
+  --current-line: #44475a; /*折叠圆点*/
+  --comment: #6272a4; /*todo框，代码行，代码备注*/
   --white: var(--foreground);
-  --white-hover: #f8f8f280;
-  --red: #ff5555;
-  --orange: #ffb86c;
-  --yellow: #f1fa8c;
-  --green: #94c862c9;
-  --purple: #bd93f9;
-  --purple-hover: #bf93f980;
-  --cyan: #81A5D5;
-  --cyan-hover: #8be9fd80;
-  --pink: #E9B071;
-  --pink-hover: #ff79c680;
+  --white-hover: #f8f8f280; /*图标色*/
+  --red: #ff5555; /*不知道*/
+  --orange: #ffb86c; /*代码颜色*/
+  --yellow: #f1fa8c; /*高亮，引述，搜索高亮*/
+  --green: #94c862c9; /*代码*/
+  --purple: #bd93f9; /*代码色号*/
+  --purple-hover: #bf93f980; /*不知道*/
+  --cyan: #81A5D5; /*不知道*/
+  --cyan-hover: #8be9fd80; /*不知道*/
+  --pink: #E9B071; /*双链，标签*/
+  --pink-hover: #ff79c680; /*鼠标悬浮*/
 
   --ls-tag-text-opacity: 1;
   --ls-tag-text-hover-opacity: 0.8;
@@ -35,7 +35,7 @@
 
 .dark-theme,
 html[data-theme="dark"] {
-  --ls-main-content-max-width: 850px;
+  --ls-main-content-max-width: 850px; /*页面宽度*/
   --ls-primary-background-color: var(--background);
   --ls-secondary-background-color: var(--dark-background);
   --ls-tertiary-background-color: var(--light-background);
@@ -49,13 +49,13 @@ html[data-theme="dark"] {
   --ls-secondary-text-color: var(--white-hover);
 
   --ls-search-background-color: var(--background);
-  --ls-border-color: #848484;
-  --ls-menu-hover-color: #44475a;
+  --ls-border-color: #848484; /*分割线颜色，竖线*/
+  --ls-menu-hover-color: #44475a; /*菜单选中*/
   --ls-table-tr-even-background-color: var(--light-background);
 
   --ls-head-text-color: var(--foreground);
   --ls-title-text-color: var(--foreground);
-  --ls-link-text-color: #94c862c9;
+  --ls-link-text-color: #94c862c9; /*内链*/
   --ls-link-text-hover-color: var(--pink-hover);
   --ls-link-ref-text-color: var(--pink);
   --ls-link-ref-text-hover-color: var(--pink-hover);
@@ -74,7 +74,7 @@ html[data-theme="dark"] {
   --ls-page-blockquote-bg-color: var(--light-background);
   --ls-page-blockquote-border-color: var(--yellow);
 
-  --ls-page-inline-code-color: #81A5D5;
+  --ls-page-inline-code-color: #81A5D5; /*行内代码*/
   --ls-page-inline-code-bg-color: var(--background);
 
   --ls-scrollbar-background-color: var(--background);
@@ -96,7 +96,7 @@ body {
   letter-spacing: var(--ls-font-letter-spacing);
   line-height: var(--ls-font-line-height);
   font-size: var(--ls-page-text-size);
-  background-color: #282a36;
+  background-color: #282a36; /*不知道*/
 }
 
 i {
@@ -125,7 +125,7 @@ mark {
 }
 
 .external-link {
-  color: #81A5D5;
+  color: #81A5D5; /*外链颜色*/
   text-decoration: none;
   border-bottom: none;
 }
@@ -142,14 +142,6 @@ mark {
 .ls-block h6 {
   font-weight: 400;
 }
-
-/*
-    Name:       dracula for CodeMirror
-    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
-    Adapted:    Sly Bouhafs
-    Original dracula color scheme by Zeno Rocha (https://github.com/zenorocha/dracula-theme)
-    Adapted for logseq
-*/
 
 .CodeMirror {
   font-family: "FiraCode Nerd Font", "Fire Code", monospace;
